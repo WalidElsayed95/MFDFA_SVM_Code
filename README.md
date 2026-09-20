@@ -130,3 +130,5 @@ figures in this repository are released under the MIT License; see `LICENSE`
 (Copyright (c) 2026 Walid E. AboElnasr). This license does not alter the terms
 of third-party source material or software dependencies. The original waveform
 arrays are not redistributed. Citation metadata are provided in `CITATION.cff`.
+The archived v1.0.0 release is available at
+[https://doi.org/10.5281/zenodo.22865357](https://doi.org/10.5281/zenodo.22865357).
