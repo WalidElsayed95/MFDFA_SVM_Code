@@ -1,0 +1,10 @@
+station,actual_earthquake_predicted_earthquake,actual_earthquake_predicted_icequake,actual_icequake_predicted_earthquake,actual_icequake_predicted_icequake,total
+BAE,487,38,14,224,763
+BAT,365,35,14,141,555
+FID,1437,47,76,1775,3335
+GLI,1968,79,118,2033,4198
+KLU,1940,190,171,1950,4251
+KNK,2050,50,39,2326,4465
+M23K,938,68,34,437,1477
+SAW,1898,121,116,2380,4515
+SCM,1909,129,86,2339,4463

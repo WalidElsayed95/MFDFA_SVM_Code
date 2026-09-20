@@ -1,0 +1,62 @@
+{
+  "checks": {
+    "confusion_counts_cover_all_rows": true,
+    "every_serial_no_predicted_once": true,
+    "exactly_28022_oof_predictions": true,
+    "fifteen_features_only": true,
+    "metrics_in_unit_interval": true,
+    "nested_inner_and_outer_10": true,
+    "nine_grid_candidates_per_outer_fold": true,
+    "nine_independent_stations": true,
+    "no_cross_station_pooling": true,
+    "station_balance_reconciles": true,
+    "station_confusions_reconcile": true,
+    "ten_outer_folds_per_station": true
+  },
+  "features": [
+    "Delta_alpha",
+    "Delta_f",
+    "f_max",
+    "f_min",
+    "alpha_max",
+    "alpha_min",
+    "mean_alpha",
+    "alpha_0",
+    "Delta_alpha_right",
+    "Delta_alpha_left",
+    "Delta_s",
+    "A",
+    "D0",
+    "D1",
+    "D2"
+  ],
+  "grid_candidates_evaluated_across_outer_folds": 810,
+  "inner_folds": 10,
+  "input_rows": 28022,
+  "note": "Pooled counts summarize predictions from nine separate models; no pooled model was trained.",
+  "outer_folds": 10,
+  "pooled_confusion_matrix_descriptive_only": [
+    [
+      12992,
+      757
+    ],
+    [
+      668,
+      13605
+    ]
+  ],
+  "stations": [
+    "BAE",
+    "BAT",
+    "FID",
+    "GLI",
+    "KLU",
+    "KNK",
+    "M23K",
+    "SAW",
+    "SCM"
+  ],
+  "status": "PASS",
+  "total_oof_predictions": 28022,
+  "total_outer_folds": 90
+}

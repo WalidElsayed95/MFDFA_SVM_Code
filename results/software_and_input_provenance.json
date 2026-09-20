@@ -1,0 +1,10 @@
+{
+  "count_table": "data/station_class_counts.csv",
+  "input_csv": "data/mfdfa_features.csv",
+  "input_sha256": "ea864f4bba55f7795584706cf370d3a6b3250cd86578ed24eb566d47f9012b3a",
+  "numpy": "2.3.5",
+  "output_directory": "results",
+  "pandas": "2.3.3",
+  "python": "3.11.13",
+  "scikit_learn": "1.6.1"
+}

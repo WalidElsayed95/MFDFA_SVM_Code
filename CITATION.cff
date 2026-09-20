@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or derived dataset, please cite the archived release and the associated article."
+title: "Code and derived data for Multifractal signatures reveal source-dependent differences between tectonic earthquakes and icequakes"
+type: software
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: "AboElnasr"
+    given-names: "Walid E."
+keywords:
+  - MFDFA
+  - multifractal analysis
+  - earthquake
+  - icequake
+  - support vector machine
+  - nested cross-validation

@@ -1,0 +1,21 @@
+{
+  "earthquake_records": 13749,
+  "icequake_records": 14273,
+  "station_macro_accuracy": 0.9427969483907295,
+  "station_macro_balanced_accuracy": 0.942762212860307,
+  "station_macro_f1": 0.9386996387739356,
+  "station_macro_precision": 0.9355958468288335,
+  "station_macro_recall": 0.942762212860307,
+  "summed_confusion_matrix_descriptive_only": [
+    [
+      12992,
+      757
+    ],
+    [
+      668,
+      13605
+    ]
+  ],
+  "total_records": 28022,
+  "waveform_weighted_oof_accuracy_descriptive_only": 0.9491470987081578
+}

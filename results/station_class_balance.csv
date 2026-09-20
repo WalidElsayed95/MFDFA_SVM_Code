@@ -1,0 +1,10 @@
+station,earthquake_records,icequake_records,total_records,earthquake_percent,icequake_percent,records_discarded_if_exact_station_balance,records_retained_if_exact_station_balance,full_station_reference_weight_earthquake,full_station_reference_weight_icequake,training_rule
+BAE,525,238,763,68.80733944954129,31.192660550458715,287,476,0.7266666666666667,1.6029411764705883,SVC(class_weight='balanced') within each training fold
+BAT,400,155,555,72.07207207207207,27.92792792792793,245,310,0.69375,1.7903225806451613,SVC(class_weight='balanced') within each training fold
+FID,1484,1851,3335,44.497751124437784,55.502248875562216,367,2968,1.1236522911051212,0.9008643976229065,SVC(class_weight='balanced') within each training fold
+GLI,2047,2151,4198,48.76131491186279,51.23868508813721,104,4094,1.0254030288226674,0.9758251975825197,SVC(class_weight='balanced') within each training fold
+KLU,2130,2121,4251,50.10585744530699,49.89414255469301,9,4242,0.997887323943662,1.002121640735502,SVC(class_weight='balanced') within each training fold
+KNK,2100,2365,4465,47.03247480403135,52.96752519596865,265,4200,1.063095238095238,0.9439746300211417,SVC(class_weight='balanced') within each training fold
+M23K,1006,471,1477,68.11103588354773,31.888964116452268,535,942,0.7340954274353877,1.5679405520169851,SVC(class_weight='balanced') within each training fold
+SAW,2019,2496,4515,44.71760797342193,55.28239202657807,477,4038,1.1181277860326895,0.9044471153846154,SVC(class_weight='balanced') within each training fold
+SCM,2038,2425,4463,45.66435133318396,54.33564866681604,387,4076,1.094946025515211,0.9202061855670103,SVC(class_weight='balanced') within each training fold

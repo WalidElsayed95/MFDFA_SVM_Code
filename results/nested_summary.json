@@ -1,0 +1,116 @@
+{
+  "class_label_mapping": {
+    "0": "earthquake",
+    "1": "icequake"
+  },
+  "cross_station_pooling": false,
+  "data_profile": {
+    "feature_columns": [
+      "Delta_alpha",
+      "Delta_f",
+      "f_max",
+      "f_min",
+      "alpha_max",
+      "alpha_min",
+      "mean_alpha",
+      "alpha_0",
+      "Delta_alpha_right",
+      "Delta_alpha_left",
+      "Delta_s",
+      "A",
+      "D0",
+      "D1",
+      "D2"
+    ],
+    "feature_count": 15,
+    "full_rows": 28022,
+    "input_csv": "data/mfdfa_features.csv",
+    "input_sha256": "ea864f4bba55f7795584706cf370d3a6b3250cd86578ed24eb566d47f9012b3a",
+    "removed_nonfinite_rows": 0,
+    "selected_rows": 28022,
+    "serial_no_unique_rows": 28022,
+    "station_label_counts": {
+      "BAE": {
+        "label_0": 525,
+        "label_1": 238
+      },
+      "BAT": {
+        "label_0": 400,
+        "label_1": 155
+      },
+      "FID": {
+        "label_0": 1484,
+        "label_1": 1851
+      },
+      "GLI": {
+        "label_0": 2047,
+        "label_1": 2151
+      },
+      "KLU": {
+        "label_0": 2130,
+        "label_1": 2121
+      },
+      "KNK": {
+        "label_0": 2100,
+        "label_1": 2365
+      },
+      "M23K": {
+        "label_0": 1006,
+        "label_1": 471
+      },
+      "SAW": {
+        "label_0": 2019,
+        "label_1": 2496
+      },
+      "SCM": {
+        "label_0": 2038,
+        "label_1": 2425
+      }
+    },
+    "stations": [
+      "BAE",
+      "BAT",
+      "FID",
+      "GLI",
+      "KLU",
+      "KNK",
+      "M23K",
+      "SAW",
+      "SCM"
+    ]
+  },
+  "feature_columns": [
+    "Delta_alpha",
+    "Delta_f",
+    "f_max",
+    "f_min",
+    "alpha_max",
+    "alpha_min",
+    "mean_alpha",
+    "alpha_0",
+    "Delta_alpha_right",
+    "Delta_alpha_left",
+    "Delta_s",
+    "A",
+    "D0",
+    "D1",
+    "D2"
+  ],
+  "feature_count": 15,
+  "feature_set_definition": "All 15 scalar numeric MFDFA descriptors",
+  "important_caveat": "serial_no is a unique feature-row identifier, not a verified cross-station event ID. No cross-station event leakage is possible because stations are never pooled.",
+  "inner_folds": 10,
+  "method": "station-wise nested stratified cross-validation",
+  "oof_station_macro_accuracy": 0.9427969483907295,
+  "outer_folds": 10,
+  "random_state": 101,
+  "runtime_seconds": 0.15078150700014703,
+  "scoring": "accuracy",
+  "station_macro_accuracy": 0.9428188136399345,
+  "station_macro_accuracy_percent": 94.28188136399345,
+  "stations_modeled_independently": true,
+  "status": "PASS",
+  "total_outer_folds": 90,
+  "total_outer_predictions": 28022,
+  "waveform_weighted_oof_accuracy": 0.9491470987081578
+}
