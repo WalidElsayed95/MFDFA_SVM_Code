@@ -2,8 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software or derived dataset, please cite the archived release and the associated article."
 title: "Code and derived data for Multifractal signatures reveal source-dependent differences between tectonic earthquakes and icequakes"
 type: software
-version: "1.0.0"
-doi: 10.5281/zenodo.22865357
+version: "1.0.1"
 license: MIT
 authors:
   - family-names: "AboElnasr"
