@@ -3,6 +3,7 @@ message: "If you use this software or derived dataset, please cite the archived 
 title: "Code and derived data for Multifractal signatures reveal source-dependent differences between tectonic earthquakes and icequakes"
 type: software
 version: "1.0.1"
+doi: 10.5281/zenodo.22867683
 license: MIT
 authors:
   - family-names: "AboElnasr"

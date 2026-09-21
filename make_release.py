@@ -9,7 +9,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parent
-ARCHIVE = ROOT.parent / "MFDFA_SVM_Reproducibility_Code_v1.0.0.zip"
+ARCHIVE = ROOT.parent / "MFDFA_SVM_Reproducibility_Code_v1.0.1.zip"
 CHECKSUMS = ROOT / "SHA256SUMS.txt"
 EXCLUDED_PARTS = {"__pycache__", ".cache", ".ipynb_checkpoints", ".venv"}
 
