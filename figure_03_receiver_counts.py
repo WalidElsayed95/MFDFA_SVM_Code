@@ -74,7 +74,7 @@ def write_map(output: Path, counts_path: Path, stations_path: Path) -> None:
     if missing:
         raise ValueError(f"Missing station coordinates: {sorted(missing)}")
 
-    width, height = 1540, 1080
+    width, height = 1540, 1040
     left, top = 110, 140
     plot_width, plot_height = 1030, 830
     right, bottom = left + plot_width, top + plot_height
@@ -117,7 +117,7 @@ def write_map(output: Path, counts_path: Path, stations_path: Path) -> None:
                 f"{abs(longitude)}°W",
                 text_anchor="middle",
                 font_family="Arial",
-                font_size="14",
+                font_size="15",
                 fill="#4b5563",
             )
         )
@@ -134,7 +134,7 @@ def write_map(output: Path, counts_path: Path, stations_path: Path) -> None:
                 f"{latitude:g}°N",
                 text_anchor="end",
                 font_family="Arial",
-                font_size="14",
+                font_size="15",
                 fill="#4b5563",
             )
         )
@@ -189,7 +189,7 @@ def write_map(output: Path, counts_path: Path, stations_path: Path) -> None:
                 label_y,
                 station,
                 font_family="Arial",
-                font_size="15",
+                font_size="16",
                 font_weight="bold",
                 fill=INK,
             )
@@ -200,7 +200,7 @@ def write_map(output: Path, counts_path: Path, stations_path: Path) -> None:
                 label_y + 28,
                 f"EQ {earthquake_n:,} | IQ {icequake_n:,}",
                 font_family="Arial",
-                font_size="12.5",
+                font_size="15",
                 fill="#4b5563",
             )
         )
@@ -252,16 +252,6 @@ def write_map(output: Path, counts_path: Path, stations_path: Path) -> None:
     )
     lines.append(
         text(legend_x, bottom - 36, f"All records: {sum(totals.values()):,}", font_family="Arial", font_size="14", font_weight="bold", fill=INK)
-    )
-    lines.append(
-        text(
-            left,
-            height - 32,
-            "Receiver locations: data/stations.txt. Counts: data/station_class_counts.csv.",
-            font_family="Arial",
-            font_size="13",
-            fill="#4b5563",
-        )
     )
     lines.append("</svg>")
     output.parent.mkdir(parents=True, exist_ok=True)
